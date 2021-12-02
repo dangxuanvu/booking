@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/stylebooking.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="header__content">
+        <div class="header__content--logo">
+          <h1 class="header__content--logo1">Booking.com</h1>
+        </div>
+        <div class="header__content--bar">
+          <div class="header__content--bar--menu">
+            <div class="header__content--vnd header__content--item">
+              <a href=""><span class="content--vnd__text">VND</span></a>
+              <div class="chontiente content__hover">
+                Chọn loại tiền tệ của bạn
+              </div>
+            </div>
+            <div class="header__content--logovn header__content--item">
+              <a href=""
+                ><img
+                  src="	https://cf.bstatic.com/static/img/flags/new/48-squared/vn/90b17da2aafaebce7b0c34189747e1e10dba8041.png"
+                  alt=""
+              /></a>
+              <div class="content__hover">Chọn ngôn ngữ của bạn</div>
+            </div>
+            <div class="header__content--logohelp header__content--item">
+              <span aria-hidden="true" class="bui-icon bui-icon--large">
+                <svg
+                  class="bk-icon -streamline-question_mark_circle"
+                  height="24"
+                  width="24"
+                  viewBox="0 0 24 24"
+                  role="presentation"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <path
+                    d="M9.75 9a2.25 2.25 0 1 1 3 2.122 2.25 2.25 0 0 0-1.5 2.122v1.006a.75.75 0 0 0 1.5 0v-1.006c0-.318.2-.602.5-.708A3.75 3.75 0 1 0 8.25 9a.75.75 0 1 0 1.5 0zM12 16.5a1.125 1.125 0 1 0 0 2.25 1.125 1.125 0 0 0 0-2.25.75.75 0 0 0 0 1.5.375.375 0 1 1 0-.75.375.375 0 0 1 0 .75.75.75 0 0 0 0-1.5zM22.5 12c0 5.799-4.701 10.5-10.5 10.5S1.5 17.799 1.5 12 6.201 1.5 12 1.5 22.5 6.201 22.5 12zm1.5 0c0-6.627-5.373-12-12-12S0 5.373 0 12s5.373 12 12 12 12-5.373 12-12z"
+                  ></path>
+                </svg>
+              </span>
+              <div class="content__hover">Liên hệ Dịch vụ Khách hàng</div>
+            </div>
+            <div class="header__content--traveller">
+              <a href="">Đăng chỗ nghĩ của Qúy vị</a>
+            </div>
+            <div class="header__content--register content--login">
+              <a href="">Đăng Ký</a>
+            </div>
+            <div class="header__content--login content--login">
+              <a href="">Đăng Nhập</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header__content--menu">
+        <ul class="content--menu">
+          <li class="content--menu__taitle content--menu__taitle1">
+            <a class="content--menu__text" href=""
+              ><i class="fas fa-bed"></i>Lưu trú</a
+            >
+          </li>
+          <li class="content--menu__taitle">
+            <a class="content--menu__text" href=""
+              ><i class="fas fa-plane"></i>Chuyến bay</a
+            >
+          </li>
+          <li class="content--menu__taitle">
+            <a class="content--menu__text" href=""
+              ><i class="fas fa-globe-asia"></i>Chuyến bay + Khách sạn</a
+            >
+          </li>
+          <li class="content--menu__taitle">
+            <a class="content--menu__text" href=""
+              ><i class="fas fa-car"></i>Thuê xe</a
+            >
+          </li>
+          <li class="content--menu__taitle">
+            <a class="content--menu__text" href=""
+              ><i class="fas fa-atom"></i>Điểm tham quan</a
+            >
+          </li>
+          <li class="content--menu__taitle">
+            <a class="content--menu__text" href=""
+              ><i class="fas fa-taxi"></i>Taxi sân bay</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="main">
+      <div class="main__form1">
+        <div class="main__form1--content">
+          <div class="form1--content1 form1__text">Ưu đãi còn lại 7 ngày</div>
+          <div class="form1--content2 form1__text">
+            Black Friday, <br />
+            du lịch hả hê
+          </div>
+          <div class="form1--content3 form1__text">
+            Ưu đãi 30% chỗ nghỉ toàn cầu - bạn đã chọn điểm đến chưa?
+          </div>
+          <div class="form1--content4">
+            <a href=""><span class="content4">Xem Ưu Đãi Black Friday</span></a>
+          </div>
+          <div class="form1__nabar">
+            <div class="nabar__search">
+              <i class="fas fa-bed searchbed"></i>
+              <input
+                class="search"
+                type="text"
+                placeholder="Bạn Muốn Đến Đâu?"
+              />
+            </div>
+            <div class="nabar__day">
+              <span><input class="nabar__day-- calendar" type="date" /></span>
+              <span class="nabar__day--receive">Nhận phòng</span>
+              <span class="nabar__day--return">Trả phòng</span>
+            </div>
+            <div class="nabar__day--rooms">
+              <span><i class="fas fa-user-tie"></i></span>
+              <span class="nabar__room"
+                >Phòng
+                <ul class="nabar__room--menu room--menu">
+                  <li class="room">1 phòng</li>
+                  <li class="room">2 phòng</li>
+                  <li class="room">3 phòng</li>
+                  <li class="room">...</li>
+                </ul>
+              </span>
+              <span class="nabar__bed"
+                >Giường
+                <ul class="nabar__bed--menu room--menu">
+                  <li class="room">1 Giường</li>
+                  <li class="room">2 Giường</li>
+                  <li class="room">3 Giường</li>
+                  <li class="room">...</li>
+                </ul>
+              </span>
+              <span class="nabar__type"
+                >Loại
+                <ul class="nabar__type--menu room--menu">
+                  <li class="room">VIP</li>
+                  <li class="room">Sang</li>
+                  <li class="room">Thường</li>
+                  <li class="room">Bình Dân</li>
+                </ul>
+              </span>
+            </div>
+            <div class="nabar__search--text">
+              <span class="search--text">Tìm</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main__form2">
+        <div class="main__form2--checkbox">
+          <input class="form2--checkbox" type="checkbox" />
+          <span class="form2--checkbox--text">Tôi đi công tác</span>
+        </div>
+        <div class="main__form2--acvice">
+          <i class="fas fa-exclamation-circle"></i>
+          <span class="acvice__text">
+            Nhận lời khuyên mà bạn cần. Xem các hạn chế liên quan đến COVID-19
+            mới nhất trước khi du lịch.
+            <a href="" class="research--text">Tìm hiểu thêm</a></span
+          >
+        </div>
+        <div class="main__form2--endow">
+          <div class="endow__img">
+            <img
+              class="endow__img1"
+              src="	https://cf.bstatic.com/static/img/deals/index_banner_getaway2020/312c784f761fc4f1e315742e93b9fa10d96ea67d.jpg"
+              alt=""
+            />
+          </div>
+          <div class="endow__content">
+            <span class="endow__content--text1">Tiết Kiệm 15% trở lên</span>
+            <p class="endow__content--text2">
+              Bạn vẫn còn cơ hội du lịch với các ưu đãi cho kỳ nghỉ đến hết năm
+              2021
+            </p>
+            <a href="" class="endow__content--text3">Khám phá ưu đãi</a>
+            <i class="fas fa-times"></i>
+          </div>
+        </div>
+        <div class="main__form2--img">
+          <div class="main__form2--img--top">
+            <div class="img__top--hn">
+              <div class="top--text">
+                <h1 class="">
+                  Hà Nội
+                  <img
+                    class="vietnam"
+                    src="https://cf.bstatic.com/static/img/flags/24/vn/baf61f68aef5e509e90f3aee952893b6ff23fe4e.png"
+                    alt=""
+                  />
+                </h1>
+                <p c>3,801 chỗ ở</p>
+              </div>
+            </div>
+            <div class="img__top--hcm">
+              <div class="top--text">
+                <h1>
+                  Hồ Chí Minh
+                  <img
+                    class="vietnam"
+                    src="https://cf.bstatic.com/static/img/flags/24/vn/baf61f68aef5e509e90f3aee952893b6ff23fe4e.png"
+                    alt=""
+                  />
+                </h1>
+                <p>5,604 chỗ ở</p>
+              </div>
+            </div>
+          </div>
+          <div class="main__form2--img--bottom">
+            <div class="img__bottom--hoian">
+              <div class="top--text">
+                <h1>
+                  Hội An
+                  <img
+                    class="vietnam"
+                    src="https://cf.bstatic.com/static/img/flags/24/vn/baf61f68aef5e509e90f3aee952893b6ff23fe4e.png"
+                    alt=""
+                  />
+                </h1>
+                <p>1,007 chỗ ở</p>
+              </div>
+            </div>
+            <div class="img__bottom--singapore">
+              <div class="top--text">
+                <h1>
+                  Singapore
+                  <img
+                    class="vietnam"
+                    src="https://cf.bstatic.com/static/img/flags/24/sg/c7ef105f80ea6953addf505c4bc58081d7d61df0.png"
+                    alt=""
+                  />
+                </h1>
+                <p>806 chỗ ở</p>
+              </div>
+            </div>
+            <div class="img__bottom--kuah">
+              <div class="top--text">
+                <h1>
+                  Kuah
+                  <img
+                    class="vietnam"
+                    src="https://cf.bstatic.com/static/img/flags/24/my/38f5d66a955809204d9db3f4e09173d16e148e0c.png"
+                    alt=""
+                  />
+                </h1>
+                <p>206 chỗ ở</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main__form3">
+        <div class="main__form3--location">
+          <h3>Khám Phá Việt Nam</h3>
+          <p class="main__form3--text">
+            Các điểm đến phổ biến này có nhiều điều chờ đón bạn
+          </p>
+          <div class="main__form3--travel">
+            <div class="travel__menu">
+              <img
+                src="https://cf.bstatic.com/xdata/images/city/square250/688831.webp?k=7b999c7babe3487598fc4dd89365db2c4778827eac8cb2a47d48505c97959a78&o="
+                alt=""
+                class="travel__menu--img"
+              />
+              <div class="travel__menu--text">
+                <p class="travel__menu--sites">Đà Lạt</p>
+                <p class="travel__menu--slot">2,144 chổ nghỉ</p>
+              </div>
+            </div>
+            <div class="travel__menu">
+              <img
+                src="https://cf.bstatic.com/xdata/images/city/square250/688956.webp?k=fc88c6ab5434042ebe73d94991e011866b18ee486476e475a9ac596c79dce818&o="
+                alt=""
+                class="travel__menu--img"
+              />
+              <div class="travel__menu--text">
+                <p class="travel__menu--sites">Vũng Tàu</p>
+                <p class="travel__menu--slot">1,821 chổ nghỉ</p>
+              </div>
+            </div>
+            <div class="travel__menu">
+              <img
+                src="https://cf.bstatic.com/xdata/images/city/square250/688893.webp?k=d32ef7ff94e5d02b90908214fb2476185b62339549a1bd7544612bdac51fda31&o="
+                alt=""
+                class="travel__menu--img"
+              />
+              <div class="travel__menu--text">
+                <p class="travel__menu--sites">TP.HCM</p>
+                <p class="travel__menu--slot">5,605 chổ nghỉ</p>
+              </div>
+            </div>
+            <div class="travel__menu">
+              <img
+                src="https://cf.bstatic.com/xdata/images/city/square250/688853.webp?k=f6427c8fccdf777e4bbc75fcd245e7c66204280181bea23350388c76c57348d1&o="
+                alt=""
+                class="travel__menu--img"
+              />
+              <div class="travel__menu--text">
+                <p class="travel__menu--sites">Hà Nội</p>
+                <p class="travel__menu--slot">3,802 chổ nghỉ</p>
+              </div>
+            </div>
+            <div class="travel__menu">
+              <img
+                src="https://cf.bstatic.com/xdata/images/city/square250/688879.webp?k=82ca0089828054a1a9c46b14ea7f1625d73d42505ae58761e8bcc067f9e72475&o="
+                alt=""
+                class="travel__menu--img"
+              />
+              <div class="travel__menu--text">
+                <p class="travel__menu--sites">Phú Quốc</p>
+                <p class="travel__menu--slot">673 chổ nghỉ</p>
+              </div>
+            </div>
+            <div class="travel__menu">
+              <img
+                src="https://cf.bstatic.com/xdata/images/city/square250/688844.webp?k=02892d4252c5e4272ca29db5faf12104004f81d13ff9db724371de0c526e1e15&o="
+                alt=""
+                class="travel__menu--img"
+              />
+              <div class="travel__menu--text">
+                <p class="travel__menu--sites">Đà Nẵng</p>
+                <p class="travel__menu--slot">2,508 chổ nghỉ</p>
+              </div>
+            </div>
+            <div class="icon__next">
+              <i class="fas fa-chevron-circle-right"></i>
+            </div>
+          </div>
+        </div>
+        <div class="main__form3--type">
+          <h2>Tìm Theo Loại chỗ nghĩ</h2>
+
+          <div class="main__form3--travel">
+            <div class="travel__menu">
+              <img
+                src="https://cf.bstatic.com/xdata/images/xphoto/square300/57584488.webp?k=bf724e4e9b9b75480bbe7fc675460a089ba6414fe4693b83ea3fdd8e938832a6&o="
+                alt=""
+                class="travel__menu--img"
+              />
+              <div class="travel__menu--text">
+                <p class="travel__menu--sites">Khách sạn</p>
+                <p class="travel__menu--slot">821,237 khách sạn</p>
+              </div>
+            </div>
+            <div class="travel__menu">
+              <img
+                src="https://cf.bstatic.com/static/img/theme-index/carousel_320x240/card-image-apartments_300/9f60235dc09a3ac3f0a93adbc901c61ecd1ce72e.jpg"
+                alt=""
+                class="travel__menu--img"
+              />
+              <div class="travel__menu--text">
+                <p class="travel__menu--sites">Căn hộ</p>
+                <p class="travel__menu--slot">724,443 căn hộ</p>
+              </div>
+            </div>
+            <div class="travel__menu">
+              <img
+                src="https://cf.bstatic.com/static/img/theme-index/carousel_320x240/bg_resorts/6f87c6143fbd51a0bb5d15ca3b9cf84211ab0884.jpg"
+                alt=""
+                class="travel__menu--img"
+              />
+              <div class="travel__menu--text">
+                <p class="travel__menu--sites">Resort</p>
+                <p class="travel__menu--slot">17,285 resort</p>
+              </div>
+            </div>
+            <div class="travel__menu">
+              <img
+                src="https://cf.bstatic.com/static/img/theme-index/carousel_320x240/card-image-villas_300/dd0d7f8202676306a661aa4f0cf1ffab31286211.jpg"
+                alt=""
+                class="travel__menu--img"
+              />
+              <div class="travel__menu--text">
+                <p class="travel__menu--sites">Biệt thự</p>
+                <p class="travel__menu--slot">374,206 biệt thự</p>
+              </div>
+            </div>
+            <div class="travel__menu">
+              <img
+                src="https://cf.bstatic.com/static/img/theme-index/carousel_320x240/card-image-chalet_300/8ee014fcc493cb3334e25893a1dee8c6d36ed0ba.jpg"
+                alt=""
+                class="travel__menu--img"
+              />
+              <div class="travel__menu--text">
+                <p class="travel__menu--sites">Nhà gỗ</p>
+                <p class="travel__menu--slot">30,964 nhà gỗ</p>
+              </div>
+            </div>
+            <div class="travel__menu">
+              <img
+                src="https://cf.bstatic.com/static/img/theme-index/carousel_320x240/bg_cottages/5e1fd9cd716f4825c6c7eac5abe692c52cc64516.jpg"
+                alt=""
+                class="travel__menu--img"
+              />
+              <div class="travel__menu--text">
+                <p class="travel__menu--sites">Nhà nghỉ thôn dã</p>
+                <p class="travel__menu--slot">129,972 nhà nghỉ thôn dã</p>
+              </div>
+            </div>
+            <div class="icon__next">
+              <i class="fas fa-chevron-circle-right"></i>
+            </div>
+          </div>
+        </div>
+        <div class="main__form3--register">
+          <div class="register___logo"><i class="fas fa-user-edit"></i></div>
+          <div class="register__text">
+            <div class="register__text1">
+              Đăng ký bản tin để thấy được các Ưu Đãi Bí Mật
+            </div>
+            <p class="register__text2">Giá giảm hẳn ngay khi bạn đăng nhập!</p>
+            <div class="register__form3">
+              <div class="register__gmail">
+                <input
+                  class="register__gmail--input"
+                  type="text"
+                  placeholder="Nhập Địa Chỉ Gmail"
+                />
+                <a href="" class="register__gmail--text"
+                  ><div class="gmail--text">Tôi muốn đăng ký!</div></a
+                >
+              </div>
+            </div>
+          </div>
+          <i class="fas fa-times register___icon"></i>
+        </div>
+        <div class="main__homelike">
+          <h2 class="text__title">Nhà ở mà khách yêu thích</h2>
+          <div class="main__homelike__menu">
+            <a href="" class="main__homelike--menu">
+              <div class="homelike--menu__img1 homelike--img"></div>
+              <p class="homelike--menu__text1">Six Continents</p>
+              <p class="homelike--menu__text2">Prague</p>
+              <p class="homelike--menu__text3">Giá từ VND 1.488.324</p>
+              <div class="homelike--menu__text4">
+                <div class="homelike--menu__point">9,0</div>
+                <div class="homelike--menu__judge">Tuyệt Hảo</div>
+                <div class="homelike--menu__evaluate">320 đánh giá</div>
+              </div>
+            </a>
+            <a href="" class="main__homelike--menu">
+              <div class="homelike--menu__img2 homelike--img"></div>
+              <p class="homelike--menu__text1">Hyde Park Residence</p>
+              <p class="homelike--menu__text2">London</p>
+              <p class="homelike--menu__text3">Giá từ VND 135.734.599</p>
+              <div class="homelike--menu__text4">
+                <div class="homelike--menu__point">9,8</div>
+                <div class="homelike--menu__judge">Xuất sắc</div>
+                <div class="homelike--menu__evaluate">9 đánh giá</div>
+              </div>
+            </a>
+
+            <a href="" class="main__homelike--menu">
+              <div class="homelike--menu__img3 homelike--img"></div>
+              <p class="homelike--menu__text1">Lake View Apartment Amsterdam</p>
+              <p class="homelike--menu__text2">Amsterdam</p>
+              <p class="homelike--menu__text3">Giá từ VND 14.544.521</p>
+              <div class="homelike--menu__text4">
+                <div class="homelike--menu__point">9,4</div>
+                <div class="homelike--menu__judge">Tuyệt Hảo</div>
+                <div class="homelike--menu__evaluate">67 đánh giá</div>
+              </div>
+            </a>
+
+            <a href="" class="main__homelike--menu">
+              <div class="homelike--menu__img4 homelike--img"></div>
+              <p class="homelike--menu__text1">Le SCALIERO</p>
+              <p class="homelike--menu__text2">Nice</p>
+              <p class="homelike--menu__text3">Giá từ VND 7.954.837</p>
+              <div class="homelike--menu__text4">
+                <div class="homelike--menu__point">9,3</div>
+                <div class="homelike--menu__judge">Tuyệt Hảo</div>
+                <div class="homelike--menu__evaluate">13 đánh giá</div>
+              </div>
+            </a>
+            <i
+              class="
+                fas
+                fa-chevron-circle-right
+                icon__next icon__next--homelike
+              "
+            ></i>
+          </div>
+        </div>
+        <div class="main__locationlike">
+          <h2>Các điểm đến được chúng tôi ưa thích</h2>
+          <div class="locationlike__content--menu">
+            <ul class="content--menu">
+              <li class="content--menu__element khuvuc">Khu Vực</li>
+              <li class="content--menu__element khuvuc2">
+                <a class="menu__element--text" href="">Thành Phố</a>
+              </li>
+              <li class="content--menu__element khuvuc2">
+                <a class="menu__element--text" href=""
+                  >Địa điểm được quan tâm</a
+                >
+              </li>
+            </ul>
+          </div>
+          <ul class="main__location">
+            <li class="main__location--item">
+              <a class="location--item--text" href="">Đắc Lắc</a>
+              <p class="location--item--text2">123 chỗ nghĩ</p>
+            </li>
+            <li class="main__location--item">
+              <a class="location--item--text" href="">Bạc Liêu</a>
+              <p class="location--item--text2">23 chỗ nghĩ</p>
+            </li>
+
+            <li class="main__location--item">
+              <a class="location--item--text" href="">Trà Vinh</a>
+              <p class="location--item--text2">17 chỗ nghĩ</p>
+            </li>
+
+            <li class="main__location--item">
+              <a class="location--item--text" href="">Hà Tĩnh</a>
+              <p class="location--item--text2">37 chỗ nghĩ</p>
+            </li>
+
+            <li class="main__location--item">
+              <a class="location--item--text" href="">Ninh Thuận</a>
+              <p class="location--item--text2">145 chỗ nghĩ</p>
+            </li>
+
+            <li class="main__location--item">
+              <a class="location--item--text" href="">Gia Lai</a>
+              <p class="location--item--text2">86 chỗ nghĩ</p>
+            </li>
+
+            <li class="main__location--item">
+              <a class="location--item--text" href="">Khu vực TP.HCM</a>
+              <p class="location--item--text2">3,888 chỗ nghĩ</p>
+            </li>
+
+            <li class="main__location--item">
+              <a class="location--item--text" href="">Thừa Thiên Huế</a>
+              <p class="location--item--text2">223 chỗ nghĩ</p>
+            </li>
+
+            <li class="main__location--item">
+              <a class="location--item--text" href="">Thanh Hóa</a>
+              <p class="location--item--text2">253 chỗ nghĩ</p>
+            </li>
+
+            <li class="main__location--item">
+              <a class="location--item--text" href="">Bình Thuận</a>
+              <p class="location--item--text2">599 chỗ nghĩ</p>
+            </li>
+
+            <li class="main__location--item">
+              <a class="location--item--text" href="">Đà Nẵng</a>
+              <p class="location--item--text2">2,532 chỗ nghĩ</p>
+            </li>
+
+            <li class="main__location--item">
+              <a class="location--item--text" href="">Vịnh Hạ Long</a>
+              <p class="location--item--text2">1,328 chỗ nghĩ</p>
+            </li>
+
+            <li class="main__location--item">
+              <a class="location--item--text" href="">Vĩnh Vong</a>
+              <p class="location--item--text2">43 chỗ nghĩ</p>
+            </li>
+
+            <li class="main__location--item">
+              <a class="location--item--text" href="">Cà Mau</a>
+              <p class="location--item--text2">48 chỗ nghĩ</p>
+            </li>
+
+            <li class="main__location--item">
+              <a class="location--item--text" href="">Quảng Bình</a>
+              <p class="location--item--text2">267 chỗ nghĩ</p>
+            </li>
+
+            <li class="main__location--item">
+              <a class="location--item--text" href="">Bình Dương</a>
+              <p class="location--item--text2">78 chỗ nghĩ</p>
+            </li>
+
+            <li class="main__location--item">
+              <a class="location--item--text" href="">Phú Yên</a>
+              <p class="location--item--text2">223 chỗ nghĩ</p>
+            </li>
+
+            <li class="main__location--item">
+              <a class="location--item--text" href="">Đà Lạt</a>
+              <p class="location--item--text2">1.673 chỗ nghĩ</p>
+            </li>
+
+            <li class="main__location--item">
+              <a class="location--item--text" href="">Nam Định</a>
+              <p class="location--item--text2">93 chỗ nghĩ</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footer__form1--top">
+        <div class="footer__form1">
+          <div class="footer__form1--contait">
+            <h2 class="footer__form1--text1">
+              Tiết kiệm thời gian và tiền bạc!
+            </h2>
+            <p class="footer__form1--text2">
+              Hãy đăng ký và chúng tôi sẽ gửi những ưu đãi tốt nhất cho bạn
+            </p>
+            <div class="footer__form1--formgmail">
+              <input
+                class="footer__form1--gmail"
+                type="text"
+                placeholder="Địa chỉ gmail của bạn"
+              />
+              <div class="footer__form1--register">
+                <a class="footer__form1--register--link" href="">Đăng Ký</a>
+              </div>
+            </div>
+            <div class="footer__form1--checked">
+              <input
+                class="footer__form1--check"
+                type="checkbox"
+                name=""
+                id=""
+              />
+              <p class="footer__form1--checked--text">
+                Gửi cho tôi đường dẫn để tải ứng dụng Booking.com MIỄN PHÍ!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__form1--top2">
+        <div class="footer__form1--top2--content">
+          <div class="footer__top2--content1">
+            <div class="content--header--text">Đăng chỗ nghĩ của quý vị</div>
+          </div>
+          <div class="footer__top2--content2">
+            <ul class="footer__top2--content2--version">
+              <li class="content2--vesion--menu">
+                <a class="content2--version" href="">Phiên bản di động</a>
+              </li>
+              <li class="content2--vesion--menu">
+                <a class="content2--version" href=""> Tài khoản của bạn</a>
+              </li>
+              <li class="content2--vesion--menu">
+                <a class="content2--version" href="">
+                  Thay đổi đặt phòng của bạn trực tuyến</a
+                >
+              </li>
+              <li class="content2--vesion--menu">
+                <a class="content2--version" href=""
+                  >Liên hệ Dịch vụ Khách hàng</a
+                >
+              </li>
+              <li class="content2--vesion--menu">
+                <a class="content2--version" href="">
+                  Trở thành đối tác phân phối</a
+                >
+              </li>
+              <li class="content2--vesion--menu">
+                <a class="content2--version" href=""
+                  >Booking.com dành cho Doanh Nghiệp</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer__form2">
+        <div class="footer__form2--menu">
+          <div class="footer__form2--menu--content">
+            <ul class="footer__form2--menu--column">
+              <li class="footer__form2--menu--list">
+                <a class="footer__form2--menu--link" href=""> Các quốc gia</a>
+              </li>
+              <li class="footer__form2--menu--list">
+                <a class="footer__form2--menu--link" href="">Khu vực</a>
+              </li>
+              <li class="footer__form2--menu--list">
+                <a class="footer__form2--menu--link" href="">Thành phố</a>
+              </li>
+              <li class="footer__form2--menu--list">
+                <a class="footer__form2--menu--link" href="">Quận</a>
+              </li>
+              <li class="footer__form2--menu--list">
+                <a class="footer__form2--menu--link" href=""> Sân bay </a>
+              </li>
+              <li class="footer__form2--menu--list">
+                <a class="footer__form2--menu--link" href="">Khách sạn</a>
+              </li>
+              <li class="footer__form2--menu--list">
+                <a class="footer__form2--menu--link" href="">
+                  Địa điểm được quan tâm</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footer__form2--menu--content">
+            <ul class="footer__form2--menu--column">
+              <li class="footer__form2--menu--list">
+                <a class="footer__form2--menu--link" href=""> Nhà</a>
+              </li>
+              <li class="footer__form2--menu--list">
+                <a class="footer__form2--menu--link" href="">Căn Hộ</a>
+              </li>
+              <li class="footer__form2--menu--list">
+                <a class="footer__form2--menu--link" href="">Resort</a>
+              </li>
+              <li class="footer__form2--menu--list">
+                <a class="footer__form2--menu--link" href="">Nhà Nghĩ B&B</a>
+              </li>
+              <li class="footer__form2--menu--list">
+                <a class="footer__form2--menu--link" href=""> Biệt Thự </a>
+              </li>
+              <li class="footer__form2--menu--list">
+                <a class="footer__form2--menu--link" href="">Nhà Trọ</a>
+              </li>
+              <li class="footer__form2--menu--list">
+                <a class="footer__form2--menu--link" href=""> Nhà Khách</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__form2--menu--content">
+            <ul class="footer__form2--menu--column">
+              <li class="footer__form2--menu--list">
+                <a class="footer__form2--menu--link" href="">
+                  Những chỗ nghĩ độc đáo</a
+                >
+              </li>
+              <li class="footer__form2--menu--list">
+                <a class="footer__form2--menu--link" href=""
+                  >Tất cả các điểm đến</a
+                >
+              </li>
+              <li class="footer__form2--menu--list">
+                <a class="footer__form2--menu--link" href="">Khám phá</a>
+              </li>
+              <li class="footer__form2--menu--list">
+                <a class="footer__form2--menu--link" href=""
+                  >Đánh giá của khách</a
+                >
+              </li>
+              <li class="footer__form2--menu--list">
+                <a class="footer__form2--menu--link" href=""> Các bài viết </a>
+              </li>
+              <li class="footer__form2--menu--list">
+                <a class="footer__form2--menu--link" href=""
+                  >Ưu đãi theo mùa và dịp lễ</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footer__form2--menu--content">
+            <ul class="footer__form2--menu--column">
+              <li class="footer__form2--menu--list">
+                <a class="footer__form2--menu--link" href="">
+                  Cho thuê xe hơi</a
+                >
+              </li>
+              <li class="footer__form2--menu--list">
+                <a class="footer__form2--menu--link" href="">Tìm chuyến bay</a>
+              </li>
+              <li class="footer__form2--menu--list">
+                <a class="footer__form2--menu--link" href="">Đặt nhà hàng</a>
+              </li>
+              <li class="footer__form2--menu--list">
+                <a class="footer__form2--menu--link" href=""
+                  >Booking.com dành cho Đại Lý du lịch</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footer__form2--menu--content">
+            <ul class="footer__form2--menu--column">
+              <li class="footer__form2--menu--list">
+                <a class="footer__form2--menu--link" href="">
+                  Các câu hỏi thường gặp về virus corona (COVID-19)</a
+                >
+              </li>
+              <li class="footer__form2--menu--list">
+                <a class="footer__form2--menu--link" href="">Về Booking.com</a>
+              </li>
+              <li class="footer__form2--menu--list">
+                <a class="footer__form2--menu--link" href=""
+                  >Liên hệ Dịch vụ Khách hàng</a
+                >
+              </li>
+              <li class="footer__form2--menu--list">
+                <a class="footer__form2--menu--link" href="">
+                  Trợ giúp đối tác</a
+                >
+              </li>
+              <li class="footer__form2--menu--list">
+                <a class="footer__form2--menu--link" href=""> Careers </a>
+              </li>
+              <li class="footer__form2--menu--list">
+                <a class="footer__form2--menu--link" href="">
+                  Du lịch bền vững</a
+                >
+              </li>
+              <li class="footer__form2--menu--list">
+                <a class="footer__form2--menu--link" href="">Truyền thông</a>
+              </li>
+              <li class="footer__form2--menu--list">
+                <a class="footer__form2--menu--link" href="">
+                  Trung tâm thông tin bảo mật
+                </a>
+              </li>
+
+              <li class="footer__form2--menu--list">
+                <a class="footer__form2--menu--link" href="">
+                  Quan hệ cổ đông
+                </a>
+              </li>
+
+              <li class="footer__form2--menu--list">
+                <a class="footer__form2--menu--link" href="">
+                  Điều khoản và điều kiện
+                </a>
+              </li>
+
+              <li class="footer__form2--menu--list">
+                <a class="footer__form2--menu--link" href="">
+                  Tranh chấp đối tác
+                </a>
+              </li>
+              <li class="footer__form2--menu--list">
+                <a class="footer__form2--menu--link" href="">
+                  Thông báo về Bảo mật & Cookie
+                </a>
+              </li>
+              <li class="footer__form2--menu--list">
+                <a class="footer__form2--menu--link" href="">
+                  Liên hệ công ty
+                </a>
+              </li>
+              <li class="footer__form2--menu--list">
+                <a class="footer__form2--menu--link" href="">
+                  Chúng Tôi Luôn Khớp Giá!
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__form2--extranet_link">
+          <h2 class="extranet_link">
+            <a class="extranet_link" href="">Đăng nhập vào trang Extranet</a>
+          </h2>
+          <p class="copyright_text">
+            Bản quyền © 1996–2021 Booking.com™. Bảo lưu mọi quyền.
+          </p>
+          <p class="copyright_text2">
+            Booking.com là một phần của Booking Holdings Inc., tập đoàn đứng đầu
+            thế giới về du lịch trực tuyến và các dịch vụ liên quan.
+          </p>
+        </div>
+        <div class="footer__form2--extranet--img">
+          <ul>
+            <li>
+              <img
+                src="https://cf.bstatic.com/static/img/tfl/group_logos/logo_booking/27c8d1832de6a3123b6ee45b59ae2f81b0d9d0d0.png"
+                title="Booking.com"
+                alt="Booking.com"
+                height="26"
+                width="91"
+              />
+            </li>
+            <li>
+              <img
+                src="https://cf.bstatic.com/static/img/tfl/group_logos/logo_priceline/f80e129541f2a952d470df2447373390f3dd4e44.png"
+                title="Priceline"
+                alt="Priceline"
+                height="26"
+                width="91"
+              />
+            </li>
+            <li>
+              <img
+                src="https://cf.bstatic.com/static/img/tfl/group_logos/logo_kayak/83ef7122074473a6566094e957ff834badb58ce6.png"
+                title="Kayak"
+                alt="Kayak"
+                height="26"
+                width="79"
+              />
+            </li>
+            <li>
+              <img
+                src="https://cf.bstatic.com/static/img/tfl/group_logos/logo_agoda/1c9191b6a3651bf030e41e99a153b64f449845ed.png"
+                title="Agoda"
+                alt="Agoda"
+                height="26"
+                width="70"
+              />
+            </li>
+            <li>
+              <img
+                src="https://cf.bstatic.com/static/img/tfl/group_logos/logo_rentalcars/6bc5ec89d870111592a378bbe7a2086f0b01abc4.png"
+                title="Rentalcars"
+                alt="Rentalcars"
+                height="26"
+                width="109"
+              />
+            </li>
+            <li>
+              <img
+                src="https://cf.bstatic.com/static/img/tfl/group_logos/logo_opentable/a4b50503eda6c15773d6e61c238230eb42fb050d.png"
+                title="OpenTable"
+                alt="OpenTable"
+                height="26"
+                width="95"
+              />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
